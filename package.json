@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.html",
   "author": "Andries",
-  "description": "Example project for Vue.js 2 and TypeScript 2",
+  "description": "Example project using Vue.js 2 and TypeScript 2 together",
   "repository": "Ansien12/vue2-typescript2-example",
   "license": "Unlicense",
   "keywords": [
