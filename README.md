@@ -42,12 +42,12 @@ app.js:91 [WDS] App updated. Recompiling...
 (18,31): error TS2339: Property 'name' does not exist on type 'Hello'.
 ```
 
-
 ## Usage
-
     npm install
     npm run watch
 
 ## Credits
-    
 Inspired by [HerringtonDarkholme](https://github.com/HerringtonDarkholme/vue-ts-example/tree/2609c7c754379c86788bb7bf515eb001989c0b6a) and [locoslab](https://github.com/locoslab/vue-typescript-component-example).
+
+## License
+[The Unlicense](http://unlicense.org)
