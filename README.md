@@ -1,6 +1,5 @@
 Standalone Vue 2 + TypeScript 2 example
 ------
-### Features
 
 ##### Typescript in .vue files
 ```html
@@ -44,11 +43,11 @@ app.js:91 [WDS] App updated. Recompiling...
 ```
 
 
-### Usage
+## Usage
 
     npm install
     npm run watch
 
-### Credits
+## Credits
     
 Inspired by [HerringtonDarkholme](https://github.com/HerringtonDarkholme/vue-ts-example/tree/2609c7c754379c86788bb7bf515eb001989c0b6a) and [locoslab](https://github.com/locoslab/vue-typescript-component-example).
