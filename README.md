@@ -1,7 +1,7 @@
 Standalone Vue 2 + TypeScript 2 example
 ------
 
-##### Typescript in .vue files
+#### Typescript in .vue files
 ```html
 <template>
     <div>
@@ -26,17 +26,17 @@ Standalone Vue 2 + TypeScript 2 example
 </script>
 ```
 
-##### Clean imports
+#### Clean imports
 ```
 import Hello from "./components/hello.vue";
 ```
 
-##### Hot reloading
+#### Hot reloading
 ```
 app.js:91 [WDS] App updated. Recompiling...
 ```
 
-##### Pretty errors
+#### Pretty errors
 ```
 ...\src\components\hello.vue.ts
 (18,31): error TS2339: Property 'name' does not exist on type 'Hello'.
