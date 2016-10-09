@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.html",
   "author": "Andries",
-  "description": "Example project for Vue.js and TypeScript using vueify and vue-typescript-component",
+  "description": "Example project for Vue.js 2 and TypeScript 2",
   "repository": "Ansien12/vue2-typescript2-example",
   "license": "Unlicense",
   "keywords": [
