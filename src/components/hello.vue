@@ -12,7 +12,7 @@
 
     @Component
     export default class Hello extends Vue {
-        naam = 'Andries'
+        naam = 'Andrie!s'
 
         sayHello() {
             alert('Hello ' + this.naam);

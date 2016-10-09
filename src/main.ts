@@ -9,7 +9,7 @@ export default class Game
 
 	private static sayHello(): void 
 	{
-		console.log('Hi there!');
+		console.log('Hi there friend!');
 
 		const helloRef = UI.getChild('hello');
 		helloRef.naam = "World";
