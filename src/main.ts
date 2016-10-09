@@ -1,6 +1,6 @@
 import UI from "./UI";
 
-export default class Game
+export default class Game 
 {
 	public static init(): void 
 	{
@@ -9,7 +9,7 @@ export default class Game
 
 	private static sayHello(): void 
 	{
-		console.log('Hi there friend!');
+		console.log('Hi there friend!!!');
 
 		const helloRef = UI.getChild('hello');
 		helloRef.naam = "World";

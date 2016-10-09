@@ -4,6 +4,9 @@
         "target": "es5",
         "experimentalDecorators": true,
         "lib": ["es5", "es2015.promise", "dom"],
-        "types": ["vue-typescript-import-dts"]
+        "types": ["vue-typescript-import-dts"],
+        "inlineSourceMap": true,
+		"inlineSources": true,
+		"pretty": true
     }
 }

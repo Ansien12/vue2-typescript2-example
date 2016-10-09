@@ -11,8 +11,9 @@
     import { Vue, Component } from 'av-ts'
 
     @Component
-    export default class Hello extends Vue {
-        naam = 'Andrie!s'
+    export default class Hello extends Vue 
+    {
+        naam = 'Andries'
 
         sayHello() {
             alert('Hello ' + this.naam);
