@@ -6,8 +6,8 @@
   "devDependencies": {
     "av-ts": "^0.2.0",
     "kilimanjaro": "^0.2.0",
-    "vue": "^2.0.1",
     "typescript": "^2.0.3",
+    "vue": "^2.0.1",
     "vue-loader": "^9.5.1",
     "vue-ts-loader": "0.0.3",
     "webpack": "^1.13.2"
