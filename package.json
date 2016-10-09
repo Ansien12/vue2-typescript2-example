@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "main": "index.html",
   "author": "Andries",
+  "description": "Example project for Vue.js and TypeScript using vueify and vue-typescript-component",
+  "repository": "Ansien12/vue2-typescript2-example",
+  "license": "Unlicense",
+  "keywords": [
+    "vue",
+    "typescript"
+  ],
   "scripts": {
     "prepublish": "typings install",
     "watch": "webpack-dev-server --progress --inline",
