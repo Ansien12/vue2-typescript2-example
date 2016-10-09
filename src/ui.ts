@@ -6,14 +6,16 @@ export default class UI
 {
 	private static _vueRoot: Vue;
 
-	public static init(): void {
+	public static init(): void 
+	{
 		UI._vueRoot = new Vue({
 			el: '#app',
 			components: { Hello }
 		});
 	}
 
-	public static getChild(ref: string): any {
+	public static getChild(ref: string): any 
+	{
 		return UI._vueRoot.$refs[ref];
 	}
 }
