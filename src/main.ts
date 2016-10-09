@@ -1,4 +1,12 @@
-import './app';
+declare const require: any
+
+const Hello = require('./components/hello.vue').default;
+
+import "./app";
+
+console.log(Hello.fNaam);
+
+Hello.fNaam = '123';
 
 export default class Game
 {

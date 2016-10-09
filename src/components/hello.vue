@@ -1,9 +1,9 @@
 <template>
     <div>
         <h1 @click="sayHello">
-            Hello {{ name }}
+            Hello {{ naam }}
         </h1>
-        <input v-model="name">
+        <input v-model="naam">
     </div>
 </template>
 
@@ -12,10 +12,18 @@
 
     @Component
     export default class Hello extends Vue {
-        name = 'andries'
+        naam = 'andries'
 
         sayHello() {
-            alert('Hello ' + this.name);
+            alert('Hello ' + this.naam);
+        }
+
+        get fNaam(): string {
+            return this.naam;
+        }
+
+        set fNaam(naam: string) {
+            this.naam = naam;
         }
     }
 </script>
