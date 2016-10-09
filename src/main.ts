@@ -1,12 +1,4 @@
-declare const require: any
-
-const Hello = require('./components/hello.vue').default;
-
-import "./app";
-
-console.log(Hello.fNaam);
-
-Hello.fNaam = '123';
+import UI from "./UI";
 
 export default class Game
 {
@@ -18,7 +10,11 @@ export default class Game
 	private static sayHello(): void 
 	{
 		console.log('Hi there!');
+
+		const helloRef = UI.getChild('hello');
+		helloRef.naam = "World";
 	}
 }
 
+UI.init();
 Game.init();

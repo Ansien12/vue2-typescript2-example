@@ -12,18 +12,10 @@
 
     @Component
     export default class Hello extends Vue {
-        naam = 'andries'
+        naam = 'Andries'
 
         sayHello() {
             alert('Hello ' + this.naam);
-        }
-
-        get fNaam(): string {
-            return this.naam;
-        }
-
-        set fNaam(naam: string) {
-            this.naam = naam;
         }
     }
 </script>

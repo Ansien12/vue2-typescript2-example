@@ -10,6 +10,7 @@
     "vue": "^2.0.1",
     "vue-loader": "^9.5.1",
     "vue-ts-loader": "0.0.3",
+    "vue-typescript-import-dts": "^1.0.1",
     "webpack": "^1.13.2"
   }
 }
