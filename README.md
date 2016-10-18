@@ -1,3 +1,7 @@
+# USE https://github.com/locoslab/vue-typescript-component-example INSTEAD !
+
+
+
 Standalone Vue 2 + TypeScript 2 example
 ------
 
